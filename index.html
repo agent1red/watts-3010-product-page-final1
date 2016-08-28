@@ -29,6 +29,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 <body>
+<!--  Menu bar as a header with background picture  -->
 <div class="MenuBarItemHover" id="header">
   
   <ul id="MenuBar1" class="MenuBarHorizontal"><div id="imgheader"><img src="assets/logos/api_superstore_sqlogo_ry.png" alt="API Superstore" name="img" height="410" id="img">
@@ -40,9 +41,10 @@ Do the following if you're using your customized build of modernizr (http://www.
   </ul>
   <div id="apiheaderimg"></div>
 </div>
+<!-- DIV container for the Youtube Video presentation   -->
 <div id="video"><iframe width="440" height="248" src="https://www.youtube-nocookie.com/embed/L48g1ZWLMdo?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
-
+<!-- Features section -->
 <div id="features"><h2>Features</h2><ol>
 <li>24/7 Customer support</li> 
 <li>Customized repository the way you want it</li> 
@@ -55,6 +57,7 @@ Do the following if you're using your customized build of modernizr (http://www.
   <a href="#" title="Browse Library" target="_top">View our extensive library</a>
   <p>&nbsp;</p>
 </div>
+<!--  Subscription written in table format contained in a DIV  -->
 <div id="prices"><table width="382" height="190" border="1">
   <caption>
   <strong>    Subscription Prices
@@ -71,7 +74,9 @@ Do the following if you're using your customized build of modernizr (http://www.
     <td>$99.99 (Best Price)</td>
   </tr>
 </table>
+<!--  Links to future webpage to handle subscription purchases  -->
 <a href="#" title="Buy 1 Month" target="_top">Buy Now</a><a href="#" title="Buy 3 Months" target="_top">Buy Now</a><a href="#" title="Buy 1 Year" target="_top">Buy Now</a></div>
+<!--Testimonial sections there is a type with the ID variable name for each testimonial but I left it this way    -->
 <div id="testimonialtitle"><h2>Testimonials</h2></div>
 <div id="testimonial">
 
@@ -99,6 +104,7 @@ Do the following if you're using your customized build of modernizr (http://www.
  </div>
 
 </div>
+<!-- The FAQ section   -->
 <div id="faqarea">
   <div id="apidefinition"><h3><img src="assets/images/apiexpose.jpg" alt="API image" name="api" width="300" height="200" class="roundedgeimg"></h3>
     <h3>What is an API?</h3>
@@ -112,6 +118,7 @@ Do the following if you're using your customized build of modernizr (http://www.
     <p class="hangingindent">API Superstore saves you a bunch of time by doing the research for you. This initial legwork in itself eliminates the search time needed to find the best API match for your needs. All APIs in our library are sorted and categorized. Even if you do not find an exact match, there is usually one that you can work off of. API Superstore greatly reduces your need to develope complex applications. </p>
   </div>
 </div>
+<!-- The footer section set up like the header section    -->
 <div id="footer">   <ul id="MenuBar2" class="MenuBarHorizontal"><div id="contactinfo"><h3>Contact Us</h3>
   <h3><img src="assets/images/phone-icon-hi.png" alt="API Superstore" name="img" width="42" height="38" id="img">  (425) 132 - 1234</h3>
       <p><img src="assets/images/mailIcon.png" alt="mail " width="42" height="38">12712 Airport Rd. 
@@ -125,6 +132,8 @@ Do the following if you're using your customized build of modernizr (http://www.
   <li><a href="#testimonialtitle">Testemonials</a></li>
   <li><a href="#footer">Contact</a></li>
   <li><a href="#faqarea">FAQ</a></li><p>&nbsp;</p>
+  
+<!-- Media Icon section they will open up a new tab and take you to the link   -->
      <div id="mediaicons">
        
        <p><img src="assets/images/facebookicon.png" alt="facebook" width="50" height="50" usemap="#Map">
@@ -149,6 +158,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 </ul>      
 <p>Created by Kevin Hudson for WATS 3010 Class. Seattle University Online. Instructor Sandra Uter.</p>
 </div>
+<!--  Java script for the menu bars and resizing  -->
 <script type="text/javascript">
 var MenuBar1 = new Spry.Widget.MenuBar("MenuBar2", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
 var MenuBar2 = new Spry.Widget.MenuBar("MenuBar2", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
