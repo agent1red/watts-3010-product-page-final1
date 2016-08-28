@@ -1,0 +1,725 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		10;
+	dw-num-cols-desktop:	20;
+	dw-gutter-percentage:	5;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 99.0476%;
+	padding-left: 0.4761%;
+	padding-right: 0.4761%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	height: 500px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/images/apibackgroud.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: 50% 0;
+	margin: auto;
+	position: static;
+
+}
+#header img {
+	float: left;
+	margin-left: 20px;
+	margin-top: auto;
+	height: 100px;
+	margin-bottom: 20px;
+}
+#backgroundimg {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#video {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+}
+#features {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#features h2 {
+	font-size: 24px;
+	padding-left: 65px;
+	font-weight: bold;
+	color: #FFF;
+}
+#features a {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: none;
+	color: #FFF;
+	margin-left: 25px;
+	padding: 15px;
+	border-radius: 22px;
+}
+#prices {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#prices table tr td {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #666;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: .2em;
+}
+#prices table caption strong {
+	color: #FFF;
+	font-size: 24px;
+}
+#prices table tr th {
+	font-size: 18px;
+	background-color: #333;
+	font-weight: bold;
+	color: #FFF;
+}
+#prices a {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: none;
+	color: #FFF;
+	margin-left: 25px;
+	padding: 15px;
+	border-radius: 22px;
+	width: 3.7852%;
+}
+#testimonial {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#buynow_button {
+	clear: none;
+	float: left;
+	margin-left: 0.9615%;
+	width: 100%;
+	display: block;
+}
+#button1 {
+	clear: none;
+	float: left;
+	margin-left: 0.9615%;
+	width: 100%;
+	display: block;
+}
+#button2 {
+	clear: none;
+	float: left;
+	margin-left: 0.9615%;
+	width: 100%;
+	display: block;
+}
+#button3 {
+	clear: none;
+	float: left;
+	margin-left: 0.9615%;
+	width: 100%;
+	display: block;
+}
+#testimonialtitle {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#faqarea {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 99.5238%;
+	padding-left: 0.238%;
+	padding-right: 0.238%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	height: 400px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/images/apibackgroud.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: 50% 0;
+	margin: auto;
+	position: static;
+
+}
+
+#header img {
+	float: left;
+	margin-left: 20px;
+	margin-top: auto;
+	height: 100px;
+	margin-bottom: 20px;
+}
+#backgroundimg {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#video {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#features {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#features h2 {
+	font-size: 24px;
+	padding-left: 65px;
+	font-weight: bold;
+	color: #FFF;
+}
+#features a {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: none;
+	color: #FFF;
+	margin-left: 25px;
+	padding: 15px;
+	border-radius: 22px;
+}
+#prices {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height: 300px;
+}
+#prices table caption strong {
+	color: #FFF;
+	font-size: 24px;
+}
+#prices table tr th {
+	font-size: 18px;
+	background-color: #333;
+	font-weight: bold;
+	color: #FFF;
+}
+#prices a {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: none;
+	color: #FFF;
+	margin-left: 25px;
+	padding: 15px;
+	border-radius: 22px;
+	width: 6.7852%;
+}
+#prices table tr td {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #666;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: .2em;
+}
+#testimonial {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#buynow_button {
+	clear: none;
+	float: left;
+	margin-left: 0.4784%;
+	width: 100%;
+	display: block;
+}
+#button1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#button2 {
+	clear: none;
+	float: left;
+	margin-left: 10px;
+	width: 9%;
+	display: block;
+}
+#button3 {
+	clear: none;
+	float: left;
+	margin-left: 0.4784%;
+	width: 100%;
+	display: block;
+}
+#testimonialtitle {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#faqarea {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 99.7619%;
+	max-width: 1232px;
+	padding-left: 0.119%;
+	padding-right: 0.119%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	height: 700px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/images/apibackgroud.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: 50% 0;
+	margin: auto;
+	position: static;
+
+}
+#backgroundimg {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#video {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 29.8329%;
+	display: block;
+}
+#features {
+	clear: none;
+	float: left;
+	margin-left: 0.2386%;
+	width: 24.821%;
+	display: block;
+}
+#prices {
+	clear: none;
+	float: left;
+	margin-left: 20px;
+	width: 30.8448%;
+	display: block;
+	margin-top: 40px;
+	height: 400px;
+}
+#testimonial {
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	margin-bottom: 50px;
+	left: 14.5%;
+	padding-bottom: 100px;
+	
+	
+}
+#header {
+	height: 700px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/images/apibackgroud.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: 50% 0;
+	margin: auto;
+	position: static;
+
+}
+#header img {
+	float: left;
+	margin-left: 20px;
+	margin-top: auto;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+#video {
+	position: relative;
+	padding-bottom: 450px;
+	padding-right: 50px;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-top: 20px;
+	z-index: 0;
+	
+}
+
+#video iframe, #video object, #video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 443px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	z-index: 0;
+}
+#features {
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	z-index: 0;
+}
+#features h2 {
+	font-size: 36px;
+	padding-left: 65px;
+	font-weight: bold;
+	color: #FFF;
+}
+#features a {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: none;
+	color: #FFF;
+	margin-left: 25px;
+	padding: 15px;
+	border-radius: 22px;
+}
+#prices table caption strong {
+	color: #FFF;
+	font-size: 36px;
+}
+#prices table tr th {
+	font-size: 18px;
+	background-color: #333;
+	font-weight: bold;
+	color: #FFF;
+}
+#prices table tr td {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #666;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: .2em;
+}
+
+
+
+#prices a {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: none;
+	color: #FFF;
+	margin-left: 15px;
+	padding: 15px;
+	border-radius: 22px;
+	width: 9.7852%;
+	text-align: center;
+	
+	
+}
+#testimonial img {
+	margin-top: 50px;
+	margin-left: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+#testimonial div {
+	max-width: 100%;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 20px;
+	font-weight: lighter;
+	color: #FFF;
+	padding-top: 30px;
+	max-width: 80%;
+	margin-bottom: auto;
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 40;
+	margin-right: 5px;
+	margin-left: auto;
+
+}
+#testimonial #tesomonial1 {
+	vertical-align: middle;
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	float: left;
+	display-inline: block;
+	 margin-right: 40px;
+	margin-left: 7%;
+	
+}
+#testimonial #tesomonial2 {
+	vertical-align: middle;
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	float: left;
+	display-inline: block;
+	 margin-right: 30px;
+}
+#testimonial #tesomonial3 {
+	vertical-align: middle;
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	float: left;
+	display-inline: block;
+ margin-right: 30px;
+	
+}
+
+#testimonialtitle {
+	clear: both;
+	
+	float: left;
+	
+	margin-left: 0;
+	
+	width: 100%;
+	
+	display: block;
+	
+}
+#testimonialtitle h2 {
+	font-size: 36px;
+	font-weight: bold;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	text-align: center;
+	padding-top: 50px;
+	color: #FFF;
+}
+
+#faqarea {
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	left: 14.5%;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+#faqarea #apidefinition {
+	font-size: 16px;
+	float: left;
+	width: 25%;
+	display: inline-block;
+	margin-top: 50px;
+	margin-right: 75px;
+	margin-left: 100px;
+	color: #FFF;
+}
+#faqarea #howapi {
+	font-size: 16px;
+	float: left;
+	width: 25%;
+	display: inline-block;
+	margin-top: 50px;
+	margin-right: 75px;
+	color: #FFF;
+}
+#faqarea #apitimesaved {
+	font-size: 16px;
+	float: left;
+	width: 30%;
+	display: inline-block;
+	margin-top: 50px;
+	margin-right: 25px;
+	color: #FFF;
+}
+#faqarea #apidefinition h3 {
+	font-size: 24px;
+	text-align: center;
+}
+.hangingindent {
+	padding-left: -5px;
+	text-indent: 20px;
+}
+#faqarea #howapi h3 {
+	font-size: 24px;
+	text-align: center;
+}
+#faqarea #apitimesaved h3 {
+	font-size: 24px;
+	text-align: center;
+}
+.roundedgeimg {
+	border-radius: 25px;
+}
+
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	z-index: 1;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+#footer #MenuBar2 #mediaicons p img {
+	margin-right: 100px;
+	float: left;
+}
+#footer #MenuBar2 #mediaicons {
+	margin-left: 60px;
+}
+#footer #MenuBar2 #mediaicons p a img {
+	padding: 0px;
+}
