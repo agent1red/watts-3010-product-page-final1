@@ -187,6 +187,86 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+
+	#testimonial #tesomonial1 div img {
+		margin-top: 10px;
+	
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+		
+	}	
+	
+		#testimonial #tesomonial2 div img {
+		margin-top: 10px;
+
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+		
+	}	
+		#testimonial #tesomonial3 div img {
+		margin-top: 10px;
+
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+		
+	}	
+	
+#testimonial #tesomonial1  {
+	
+		max-width: 70%;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 20px;
+	font-weight: lighter;
+	color: #FFF;
+	margin-bottom: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+	
+	#testimonial #tesomonial2  {
+	
+		max-width: 70%;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 20px;
+	font-weight: lighter;
+	color: #FFF;
+	margin-bottom: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+		
+	#testimonial #tesomonial3  {
+	
+		max-width: 70%;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 20px;
+	font-weight: lighter;
+	color: #FFF;
+	margin-bottom: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+
+	#testimonialtitle h2 {
+		
+		font-size: 24px;
+	font-weight: bold;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+	color: #FFF;
+	}	
+	
+
+
+
 #faqarea {
 	clear: both;
 	float: left;
@@ -194,6 +274,46 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+
+
+
+	#faqarea #apidefinition h3 .roundedgeimg {
+		
+		
+	padding: 20px;
+	border-radius: 25px;
+	}
+	#faqarea #apidefinition {
+	font-size: 16px;
+	color: #FFF;
+	padding: 20px;	
+}
+	
+#faqarea #howapi h3 .roundedgeimg {
+		
+		
+	padding: 20px;
+	border-radius: 25px;
+	}
+	#faqarea #howapi {
+	font-size: 16px;
+	color: #FFF;
+	padding: 20px;	
+}	
+	
+#faqarea #apitimesaved h3 .roundedgeimg {
+		
+		
+	padding: 20px;
+	border-radius: 25px;
+	}	
+	
+		#faqarea #apitimesaved {
+	font-size: 16px;
+	color: #FFF;
+	padding: 20px;	
+}	
+	
 #footer {
 	clear: both;
 	float: left;
@@ -201,7 +321,12 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
-
+#footer p {
+	font-size: 16px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 50px;
+}
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -363,6 +488,85 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+	
+	#testimonial #tesomonial1 div img {
+		margin-top: 50px;
+	
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+		
+	}	
+	
+		#testimonial #tesomonial2 div img {
+		margin-top: 50px;
+	
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+		
+	}	
+		#testimonial #tesomonial3 div img {
+		margin-top: 50px;
+	
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+		
+	}	
+	
+	#testimonial #tesomonial1  {
+	
+		max-width: 70%;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 20px;
+	font-weight: lighter;
+	color: #FFF;
+	margin-bottom: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+	
+	#testimonial #tesomonial2  {
+	
+		max-width: 70%;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 20px;
+	font-weight: lighter;
+	color: #FFF;
+	margin-bottom: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+		
+	#testimonial #tesomonial3  {
+	
+		max-width: 70%;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 20px;
+	font-weight: lighter;
+	color: #FFF;
+	margin-bottom: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+	#testimonialtitle h2 {
+		
+		font-size: 36px;
+	font-weight: bold;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	text-align: center;
+	padding-top: 50px;
+	color: #FFF;
+	}	
+	
+	
+	
+	
 #faqarea {
 	clear: both;
 	float: left;
@@ -370,6 +574,44 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+	#faqarea #apidefinition h3 .roundedgeimg {
+		
+		float: left;
+	padding: 20px;
+	border-radius: 25px;
+	}
+	#faqarea #apidefinition {
+	font-size: 16px;
+	color: #FFF;
+	padding: 20px;	
+}
+	
+#faqarea #howapi h3 .roundedgeimg {
+		
+		float: left;
+	padding: 20px;
+	border-radius: 25px;
+	}
+	#faqarea #howapi {
+	font-size: 16px;
+	color: #FFF;
+	padding: 20px;	
+}	
+	
+#faqarea #apitimesaved h3 .roundedgeimg {
+		
+		float: left;
+	padding: 20px;
+	border-radius: 25px;
+	}	
+	
+		#faqarea #apitimesaved {
+	font-size: 16px;
+	color: #FFF;
+	padding: 20px;	
+}	
+	
+	
 #footer {
 	clear: both;
 	float: left;
@@ -377,6 +619,11 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#footer p {
+	font-size: 16px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 50px;
 }
 
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
@@ -473,6 +720,7 @@ img, object, embed, video {
 	margin-top: auto;
 	height: 100px;
 	margin-bottom: 20px;
+	margin-right: 250px;
 }
 
 #video {
@@ -650,7 +898,7 @@ img, object, embed, video {
 	width: 25%;
 	display: inline-block;
 	margin-top: 50px;
-	margin-right: 75px;
+	margin-right: 35px;
 	margin-left: 100px;
 	color: #FFF;
 }
@@ -666,11 +914,12 @@ img, object, embed, video {
 #faqarea #apitimesaved {
 	font-size: 16px;
 	float: left;
-	width: 30%;
+	width: 15%;
 	display: inline-block;
 	margin-top: 50px;
-	margin-right: 25px;
+	margin-right: 10px;
 	color: #FFF;
+
 }
 #faqarea #apidefinition h3 {
 	font-size: 24px;
@@ -722,4 +971,10 @@ img, object, embed, video {
 }
 #footer #MenuBar2 #mediaicons p a img {
 	padding: 0px;
+}
+	#footer p {
+	font-size: 16px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 50px;
 }
