@@ -98,6 +98,7 @@ img, object, embed, video {
 }
 #features a {
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	border-radius: 22px;
 	font-size: 18px;
 	text-decoration: none;
 	font-weight: bold;
@@ -105,8 +106,27 @@ img, object, embed, video {
 	color: #FFF;
 	margin-left: 25px;
 	padding: 15px;
-	border-radius: 22px;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
 }
+	#features a:hover {
+			color: #600;
+		border-color: #600;
+		
+		
+	}
+	
 #prices {
 	clear: both;
 	float: left;
@@ -143,8 +163,27 @@ img, object, embed, video {
 	margin-left: 25px;
 	padding: 15px;
 	border-radius: 22px;
-	width: 3.7852%;
+	width: 6.7852%;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	
 }
+	#prices a:hover {
+	color: #600;
+		border-color: #600;
+		
+	}
 #testimonial {
 	clear: both;
 	float: left;
@@ -398,6 +437,7 @@ img, object, embed, video {
 }
 #features a {
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	border-radius: 22px;
 	font-size: 18px;
 	text-decoration: none;
 	font-weight: bold;
@@ -405,8 +445,27 @@ img, object, embed, video {
 	color: #FFF;
 	margin-left: 25px;
 	padding: 15px;
-	border-radius: 22px;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
 }
+	#features a:hover {
+			color: #600;
+		border-color: #600;
+		
+		
+	}
+	
 #prices {
 	clear: both;
 	float: left;
@@ -436,7 +495,26 @@ img, object, embed, video {
 	padding: 15px;
 	border-radius: 22px;
 	width: 6.7852%;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	
 }
+	#prices a:hover {
+	color: #600;
+		border-color: #600;
+		
+	}
 #prices table tr td {
 	font-size: 16px;
 	font-weight: bold;
@@ -760,6 +838,7 @@ img, object, embed, video {
 }
 #features a {
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	border-radius: 22px;
 	font-size: 18px;
 	text-decoration: none;
 	font-weight: bold;
@@ -767,8 +846,27 @@ img, object, embed, video {
 	color: #FFF;
 	margin-left: 25px;
 	padding: 15px;
-	border-radius: 22px;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
 }
+	#features a:hover {
+			color: #600;
+		border-color: #600;
+		
+		
+	}
+	
 #prices table caption strong {
 	color: #FFF;
 	font-size: 36px;
@@ -793,19 +891,36 @@ img, object, embed, video {
 
 #prices a {
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	
+	width: 6.7852%;
+	border-radius: 22px;
 	font-size: 18px;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: none;
 	color: #FFF;
-	margin-left: 15px;
+	margin-left: 25px;
 	padding: 15px;
-	border-radius: 22px;
-	width: 9.7852%;
-	text-align: center;
-	
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
 	
 }
+	#prices a:hover {
+	color: #600;
+		border-color: #600;
+		
+	}
 #testimonial img {
 	margin-top: 50px;
 	margin-left: 30px;
